@@ -534,4 +534,4 @@ async def get_container_ram_pct(container_name):
         lines = stdout.decode().splitlines()
         if len(lines) > 1:
             parts = lines[1].split()
-            total = i
+            total = 
