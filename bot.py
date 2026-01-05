@@ -2192,4 +2192,5 @@ if __name__ == "__main__":
     if DISCORD_TOKEN:
         bot.run(DISCORD_TOKEN)
     else:
+
         logger.error("No Discord token found in DISCORD_TOKEN environment variable.")
